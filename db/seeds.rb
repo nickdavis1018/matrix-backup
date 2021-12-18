@@ -6,6 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+
+##  I assume this stays as is below? I don't update the seed at any point I would just be actively updated the database from the console using Active Record in Commit 10?
 Character.create([
 	{ name: "Neo", description: "Neo (born as Thomas A. Anderson, also known as The One, an anagram for Neo) is a character and the protagonist of The Matrix franchise." },
 	{ name: "Trinity", description: "Trinity is a computer programmer and a hacker who has escaped from the Matrix."},
